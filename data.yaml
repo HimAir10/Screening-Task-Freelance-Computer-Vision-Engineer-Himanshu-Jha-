@@ -1,0 +1,36 @@
+names:
+- 2-axle-truck
+- 3-axle-trailer
+- 3-axle-truck
+- 4-axle-trailer
+- 4-axle-truck
+- 5-axle-trailer
+- 5-axle-truck rigid
+- 5-axle-truck
+- '56'
+- Ambulance
+- Auto
+- Bus
+- Car
+- Firetruck
+- HCM-EME
+- Tractor
+- Truck
+- Two-Wheeler
+- bicycle
+- bus 2-axle
+- bus 3-axle
+- cart
+- motorcycle
+- rickshaw
+- share auto
+nc: 25
+roboflow:
+  license: CC BY 4.0
+  project: indian-vehicle-classification
+  url: https://universe.roboflow.com/tansam-uunrl/indian-vehicle-classification/dataset/5
+  version: 5
+  workspace: tansam-uunrl
+test: "../test/images"
+train: "Vehicle-Detection-3-1/train/images"
+val: "Vehicle-Detection-3-1/valid/images"
